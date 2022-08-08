@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+section .container1 {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  /* background-color: blue; */
+}
+
+.container1 h1 {
+  font-size: 40px;
+  color: hsl(300, 43%, 22%);
+}
+
+.container1 p {
+  color: hsl(303, 10%, 53%);
+  padding: 18px;
+  font-size: 20px;
+}
+
+.container2 {
+  width: 100%;
+  /* background-color: hsl(300, 24%, 96%); */
+  text-align: center;
+  padding: 29px;
+}
+
+.container2 .star_container {
+  padding: 20px;
+  background-color: hsl(300, 24%, 96%);
+  gap: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  height: 90px;
+}
+
+.container2 .star_container h5 {
+  color: hsl(300, 43%, 22%);
+  font-size: 20px;
+  padding: 10px;
+}
+
+.container3 {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.buttom_container {
+  padding: 30px;
+  background-color:  hsl(300, 43%, 22%);
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+}
+.buttom_container .spam {
+  display: flex;
+  padding: 10px;
+}
+
+.buttom_container .spam img {
+  border-radius: 50%;
+  width: 70px;
+  padding: 10px;
+}
+
+.buttom_container .spam h4 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+}
+
+.buttom_container .spam span {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  padding: 2px;
+}
+.buttom_container p {
+  color: hsl(300, 24%, 96%);
+  padding: 10px;
+}
+
+@media only screen and (min-width: 700px) {
+
+  section {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-image: url("./images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+ .section1 {
+  display: flex;
+ }
+ .section1 .container1 {
+  text-align: start;
+  gap: 30px;
+  width: 600px;
+ }
+
+ .section1 .container1 p {
+  padding: 0px;
+ }
+
+ .container2 {
+  width: 1000px;
+  margin-left: 30px;
+ }
+
+ .container2 .star_container {
+  display: flex;
+  padding: 0px;
+  height: 60px;
+  width: 500px;
+ }
+
+ .container2 .star_container .image {
+  display: flex;
+  gap: 5px;
+  padding: 20px;
+ }
+
+ .container2 .star_container h5 {
+  padding: 20px;
+ }
+ .container2 .first {
+  transform: translate(31px, 1px);
+ }
+
+ .container2 .second {
+  transform: translate(59px, -3px);
+ }
+
+ .container2 .thrid {
+  transform: translate(96px, -4px);
+ }
+ 
+ .container3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  padding: 25px;
+  gap: 10px;
+ }
+
+ .container3 .ten {
+  transform: translate(-8px, -22px);
+ }
+
+ .container3 .nine {
+  transform: translate(1px, -3px);
+ }
+ .container3 .eight {
+  transform: translate(10px, 17px);
+ }
+ 
+}
